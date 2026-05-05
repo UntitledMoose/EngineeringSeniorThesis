@@ -1,0 +1,61 @@
+{
+  "expo": {
+    "name": "ERLS",
+    "slug": "erls",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "jsEngine": "hermes",
+    "scheme": "erls",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.erls.app",
+      "infoPlist": {
+        "NSBluetoothAlwaysUsageDescription": "ERLS uses Bluetooth to communicate with emergency beacons and determine your location within the building.",
+        "NSBluetoothPeripheralUsageDescription": "ERLS uses Bluetooth to communicate with emergency beacons.",
+        "NSLocationWhenInUseUsageDescription": "ERLS uses your location to help emergency responders locate you.",
+        "NSLocationAlwaysUsageDescription": "ERLS uses your location during emergencies to help responders locate you."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.erls.app",
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_SCAN",
+        "android.permission.BLUETOOTH_CONNECT",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "androidMode": "default"
+        }
+      ]
+    ]
+  }
+}
