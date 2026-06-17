@@ -7,7 +7,7 @@ This repository contains documentation and files pertaining to the Senior Thesis
 community and applied the Engineering Design Process to address that need. In this course, I combined  research, writing, and presentation skills learned over the course of my schooling with many skills gained through my participation in the engineering program, and wrote a comprehensive analysis on my topic, getting feedback throughout the process, and consulting with experts in my topic’s field. At the conclusion of the year, a presentation to a panel of judges was completed.
 
 
-#### Link to Recorded Presentation: [Proton Drive](https://drive.proton.me/urls/6DDCBXAW40#RLJE85XC0rxy) | Link to Thesis Paper: [PDF](https://github.com/UntitledMoose/EngineeringSeniorThesis/blob/main/paper/NoahBlaut-EngineeringThesis.pdf)
+#### Link to Recorded Presentation: [Proton Drive](https://drive.proton.me/urls/6DDCBXAW40#RLJE85XC0rxy) | Link to Thesis Paper: [PDF](/final-paper/NoahBlaut-EngineeringThesis.pdf)
 
 ---
 
